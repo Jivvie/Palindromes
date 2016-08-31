@@ -6,7 +6,7 @@ public class Palindromes {
     public boolean doSort(char[] array, int start, int end)
     {
         /*If statement is also our base case.
-        If the start of the array is equal to the end of the array, return false. We remember that
+        If the start of the array is equal to the end of the array, return true. We remember that
         palindromes have equal sides left and right. So there will be an index where they meet at equal values.
         We imagine the word "eevee." The 'v' is where start and finish will equal 3. If the recursion has come this
         far, we should return true because this character will determine if we have a palindrome. */
